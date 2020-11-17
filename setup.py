@@ -50,6 +50,7 @@ EXTRAS_REQUIRE = {
         'sphinx-gallery',
         'sphinx_rtd_theme',
         'sphinxcontrib-bibtex',
+        'sphinx_reredirects',
         'numpydoc',
         'matplotlib',
         'pandas',
