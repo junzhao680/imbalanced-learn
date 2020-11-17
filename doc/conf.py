@@ -41,6 +41,7 @@ extensions = [
     'numpydoc',
     'sphinx_issues',
     'sphinx_gallery.gen_gallery',
+    'sphinx_reredirects',
 ]
 
 # this is needed for some reason...
@@ -339,3 +340,7 @@ linkcode_resolve = make_linkcode_resolve('imblearn',
                                          'https://github.com/scikit-learn-contrib/'
                                          'imbalanced-learn/blob/{revision}/'
                                          '{package}/{path}#L{lineno}')
+
+redirects = {
+    "*": "https://imbalanced-learn.org/docs/$source.html"
+}
